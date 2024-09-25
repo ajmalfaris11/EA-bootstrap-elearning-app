@@ -4,15 +4,15 @@ body {
 
 .card {
     border: #ffffff 10px solid !important;
-    padding-block: 0px ;
+    padding-block: 0px;
 }
 
 .LearnMoreBtn {
     padding: 10px;
-    background: linear-gradient(to top, #7E64FB , #5d44d8 );
+    background: linear-gradient(to top, #7E64FB, #5d44d8);
     border-radius: 12px;
     text-decoration: none;
     color: white;
     width: 100%;
-    
+
 }
