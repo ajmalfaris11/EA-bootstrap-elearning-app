@@ -3,3 +3,72 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.navbar {
+    background:transparent;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar img {
+    width: 150px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: aqua !important;
+}
+
+.login-status {
+    background-color: aqua;
+    border-radius: 22px;
+    padding-inline: 6px !important;
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.sign-up {
+    color: #7E64FB !important;
+}
+
+.sign-up:hover {
+    color: rgb(195, 0, 255) !important;
+}
+
+.login {
+    background: #7E64FB;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-section {
+    background: #7E64FB;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-head {
+    font-size: 64px;
+    font-weight: bolder;
+}
+
+.view-btn {
+    background: aqua;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 16px;
+    color: #7E64FB;
+}
