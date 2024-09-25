@@ -72,3 +72,22 @@
     border-radius: 16px;
     color: #7E64FB;
 }
+
+/* ====== Features Section ====== */
+
+.card {
+    background: #7E64FB;
+    color: white;
+    border-radius: 12px;
+    padding-block: 20px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    text-transform: capitalize;
+    font-weight: bolder;
+}
