@@ -75,9 +75,13 @@
 
 /* ====== Features Section ====== */
 
-.card {
+.features-section {
     background: #7E64FB;
-    color: white;
+}
+
+.card {
+    background: white;
+    color: #7E64FB;
     border-radius: 12px;
     padding-block: 20px;
     transition: 0.5s;
@@ -90,4 +94,10 @@
 .card-title {
     text-transform: capitalize;
     font-weight: bolder;
+}
+
+/* ===== FOOTER SECTION ===== */
+
+footer {
+    background: #7E64FB;
 }
