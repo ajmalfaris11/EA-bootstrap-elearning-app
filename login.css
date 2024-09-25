@@ -1,3 +1,28 @@
 body {
     background-color: #7E64FB;
 }
+
+nav {
+    height: 15vh;
+    position: static !important;
+}
+
+.login-form {
+    height: 80vh;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginBtn {
+    text-align: center;
+    background: #7E64FB;
+    color: white;
+    padding: 10px;
+    padding-inline: 30px;
+    border: none;
+    border-radius: 12px;
+}
