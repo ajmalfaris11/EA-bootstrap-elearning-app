@@ -46,11 +46,15 @@ button {
     border-radius: 12px;
     background: #7E64FB;
     color: white;
-    font-size: larger;
+    font-size: medium;
     font-weight: 600;
 }
 
+/* ====== Footer ====== */
 
+footer {
+    height: 10vh;
+}
   
   /* Responsive Design for Two-Column Layout */
 
