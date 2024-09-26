@@ -1,3 +1,66 @@
 body {
     background-color: #7E64FB;
 }
+
+.signup-form {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    position: static !important;
+    height: 10vh;
+}
+
+.navbar img {
+    width: 100px;
+}
+
+.card {
+    padding-block: 0px;
+    width: 100%;
+}
+.card:hover {
+    transform: scale(1);
+}
+.submitContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background: #7E64FB;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+
+  
+  /* Responsive Design for Two-Column Layout */
+
+  @media (max-width: 767px) {
+    .signup-form .row {
+      display: block;
+    }
+    
+    .signup-form .row > div {
+      border-right: none;
+    }
+  }
+  
