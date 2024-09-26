@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard - LearnIt</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <!-- font awsome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-    
+
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="dashboard.css">
 
-    
+
 </head>
+
 <body>
 
     <!-- Navbar -->
@@ -26,12 +28,12 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a style="color: aqua !important;"  class="nav-link" href="index.html">Home</a>
+                    <a style="color: aqua !important;" class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="courses.html">Courses</a>
                 </li>
-                <a id="userView" >
+                <a id="userView">
                     <h6>User Name</h6>
                     <div id="userProfile">
                         <h5 id="userShort">AJ</h5>
@@ -41,8 +43,35 @@
         </div>
     </nav>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Dashboard -->
+    <section class="dashboard py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Hello, <span id="usernameDisplay"></span></h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>Your Courses</h4>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            Introduction to Web Development
+                            <span class="badge  float-right">75% Complete</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            Responsive Web Design 
+                            <span class="badge  float-right">40% Complete</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            Advanced JavaScript Techniques 
+                            <span class="badge  float-right">10% Complete</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
