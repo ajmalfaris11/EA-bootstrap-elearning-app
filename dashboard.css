@@ -8,6 +8,12 @@ body {
     background-color: #7E64FB;
 }
 
+nav {
+    position: static !important;
+    height: 15vh;
+}
+
+
 nav img {
     width: 100px !important;
 }
@@ -63,4 +69,18 @@ h2 {
 li {
     display: flex;
     align-items: center;
+}
+
+/* ===== DashBoard ===== */
+
+.dashboard {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* ====== Footer ====== */
+
+footer {
+    height: 10vh;
 }
