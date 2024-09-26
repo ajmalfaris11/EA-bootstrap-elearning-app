@@ -10,7 +10,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
 
     if (user && user.email === email && user.password === password) {
       alert('Login successful!');
-      window.location.href = 'index.html';
+      window.location.href = 'dashboard.html';
     } else {
       alert('Invalid email or password.');
     }
