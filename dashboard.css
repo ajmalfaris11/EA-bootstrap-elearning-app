@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7E64FB;
+}
+
+nav img {
+    width: 100px !important;
+}
+
+#userView {
+    background-color: aqua;
+    height: 50px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px 5px;
+    gap: 10px;
+}
+
+h6 {
+    margin: 0 !important;
+    text-transform: capitalize;
+    color: #7E64FB;
+    font-weight: 600;
+}
+
+h5 {
+    margin: 0 !important;
+}
+
+#userProfile {
+    background: #7E64FB;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+#userProfile i {
+  margin-top: 12px ;
+
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
