@@ -3,7 +3,8 @@
     e.preventDefault();
 
     // Get form values
-    const fullname = document.getElementById('fullname').value;
+    const firstname = document.getElementById('firstname').value;
+    const lastname = document.getElementById('lastname').value;
     const username = document.getElementById('username').value;
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
@@ -17,7 +18,7 @@
 
     // Create user object
     const user = {
-      fullname: fullname,
+      fullname: `${firstname} ${lastname}`,
       username: username,
       email: email,
       password: password
