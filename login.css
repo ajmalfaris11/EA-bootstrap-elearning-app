@@ -3,12 +3,16 @@ body {
 }
 
 nav {
-    height: 15vh;
     position: static !important;
+    height: 10vh;
+}
+
+.navbar img {
+    width: 100px;
 }
 
 .login-form {
-    height: 85vh;
+    height: 80vh;
 }
 
 form {
@@ -25,4 +29,11 @@ form {
     padding-inline: 30px;
     border: none;
     border-radius: 12px;
+}
+
+
+/* ====== Footer ====== */
+
+footer {
+    height: 10vh;
 }
